@@ -1,0 +1,166 @@
+body {
+    padding: 0 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.nav {
+    display: flex;
+}
+
+.page-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-item {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: gray;
+}
+
+.content-title {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.content-right {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: darkslategrey;
+    color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: black;
+    color: gray;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: light gray;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px 2px;
+}
+
+select {
+    padding: 8px 2px;
+}
+
+.content-image {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.content-image span {
+    color: gray;
+}
+
+.circle {
+    display: flex;
+    background: lightgray;
+    justify-content: center;
+    border-radius: 50%;
+    width: 1.2em
+}
+
+.photo-contact {
+    top: 100px;
+    text-align: left;
+    margin: 0px 0px 0px 150px;
+}
+
+.photo {
+    width: 15%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.float-kanan {
+    float: right;
+    text-align: left;
+    margin: 20px 290px 0px 0px;
+}
+
+.float-kanan2 {
+    font-size: 12px;
+    }
+
+.use-this {
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.satu {
+        margin: -18px 0px 0px 30px;
+}
+
+.dua {
+    margin: -18px 0px 0px 30px;
+}
+
+.tiga {
+    margin: -18px 0px 0px 30px;
+}
